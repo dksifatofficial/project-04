@@ -9,7 +9,7 @@ const nextConfig = {
           protocol: 'https',
           hostname: 'raw.githubusercontent.com',
           port: '',
-          pathname: '/dksifatofficial/blogposts/main/images/**',
+          pathname: '/dksifatofficial/new-blogposts/master/images/**',
         },
       ],
     },
