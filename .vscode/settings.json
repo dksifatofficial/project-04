@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.tslint": true,
+        "source.organizeImports": true,
+    },
+    "javascript.validate.enable": true,
+    "typescript.validate.enable": true,
+    "tailwindCSS.emmetCompletions": true,
+    "css.validate":false,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    }
+}
