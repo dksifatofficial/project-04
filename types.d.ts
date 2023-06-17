@@ -3,10 +3,10 @@ type Meta = {
   title: string;
   date: string;
   tags: string[];
-  customImage: string;
+  customImage: boolean;
 }
 
 type BlogPost = {
   meta: Meta,
-  content: ReactElement<any, string | JSXElementConstructor<any>>,
+  content: ReactElement<any, string, boolean | JSXElementConstructor<any>>,
 }

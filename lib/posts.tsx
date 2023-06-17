@@ -37,7 +37,7 @@ export async function getPostByName(
     title: string;
     date: string;
     tags: string[];
-    customImage: string;
+    customImage: boolean;
   }>({
     source: rawMDX,
     components: {
